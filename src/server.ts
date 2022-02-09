@@ -2,6 +2,8 @@ import express from "express";
 
 import { routes } from "./modules/cars/routes";
 
+import "./database";
+
 const app = express();
 
 app.use(express.json());
